@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社Haichii</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 10.182V22h18V10.182L12 2L3 10.182Z" stroke="#2B3A67" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="logo-text">Haichii</span>
+            </div>
+            <!-- ハンバーガーメニューボタン -->
+            <button class="menu-trigger">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- フルスクリーンナビゲーション -->
+    <nav class="fullscreen-nav">
+        <button class="close-menu">
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#services">SERVICE</a></li>
+            <li><a href="#about">COMPANY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="geometric-bg"></div>
+            <div class="container">
+                <h2>AIで、あなたのビジネスに<br>「成果が続く仕組み」を。</h2>
+            </div>
+            <div class="scroll-icon">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-text">Scroll</div>
+            </div>
+        </section>
+
+        <section class="about-us fade-section">
+            <div class="container">
+                <h2 class="section-title">About us<span class="jp-title">_私たちについて</span></h2>
+                <div class="about-us-content">
+                    <div class="about-image-container">
+                        <img src="images/image.jpg" alt="About Us">
+                    </div>
+                    <div class="about-us-text">
+                        <p class="about-message">
+                            私たちは「誰でも使えるAI」をコンセプトに、<br>
+                            事業者が抱える課題をテクノロジーで解決する会社です。
+                        </p>
+                        <p class="about-message">
+                            面倒な作業を効率化し、反響・成果を最大化する。<br>
+                            難しい専門知識は不要。
+                        </p>
+                        <p class="about-message">
+                            シンプルな操作でビジネスを強くする環境を提供しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services fade-section">
+            <div class="container">
+                <h2 class="section-title">Service<span class="jp-title">_サービス</span></h2>
+                <div class="service-cards">
+                    <div class="service-card">
+                        <div class="service-card-image">
+                            <img src="images/service1.png" alt="Haichii AI Service">
+                        </div>
+                        <div class="service-card-content">
+                            <h3>Haichii AI</h3>
+                            <p class="service-type">家具配置AIサービス</p>
+                            <p class="service-description">AI技術を活用した最適な家具配置プランを提供します。空間の有効活用と快適な生活環境の実現をサポートします。</p>
+                        </div>
+                    </div>
+                    <!-- 必要に応じて追加のサービスカード -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about fade-section">
+            <div class="container">
+                <h2 class="section-title">Company<span class="jp-title">_会社概要</span></h2>
+                <div class="company-table">
+                    <table>
+                        <tr>
+                            <th>会社名</th>
+                            <td>株式会社Haichii</td>
+                        </tr>
+                        <tr>
+                            <th>代表取締役</th>
+                            <td>坂本　翔輝</td>
+                        </tr>
+                        <tr>
+                            <th>本社所在地</th>
+                            <td>〒160-0023<br>東京都新宿区西新宿3-3-13-6F</td>
+                        </tr>
+                        <tr>
+                            <th>連絡先</th>
+                            <td>narouze.com@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>設立</th>
+                            <td>2021年7月</td>
+                        </tr>
+                        <tr>
+                            <th>資本金</th>
+                            <td>3,000,000円</td>
+                        </tr>
+                        <tr>
+                            <th>事業内容</th>
+                            <td>ウェブシステム・ウェブサービスの開発運営</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact fade-section">
+            <div class="container">
+                <h2 class="section-title">Contact<span class="jp-title">_お問い合わせ</span></h2>
+                <p class="contact-description">サービスに関するお問い合わせは、以下のフォームよりお願いいたします。</p>
+                <form>
+                    <div class="form-group">
+                        <label for="company">会社名</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">担当者名<span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス<span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容<span class="required">*</span></label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">送信</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <!-- フッターロゴ -->
+                <div class="footer-logo">
+                    <svg class="footer-logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 10.182V22h18V10.182L12 2L3 10.182Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="footer-logo-text">Haichii</span>
+                </div>
+                <!-- コピーライト -->
+                <div class="footer-copyright">
+                    <p>© Haichii Inc. 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // Intersection Observer の設定
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    // スクロールアニメーション用のObserver
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                // 一度表示されたら監視を解除（オプション）
+                // observer.unobserve(entry.target);
+            }
+        });
+    }, options);
+
+    // ヒーローセクションの設定
+    const hero = document.querySelector('.hero');
+    if (hero) {
+        // ページ読み込み時にヒーローセクションを表示
+        hero.classList.add('visible');
+    }
+
+    // フェードインアニメーション要素の監視を開始
+    document.addEventListener('DOMContentLoaded', () => {
+        const fadeSections = document.querySelectorAll('.fade-section');
+        fadeSections.forEach(section => {
+            observer.observe(section);
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // 必要な要素を取得
+        const menuTrigger = document.querySelector('.menu-trigger');
+        const closeMenu = document.querySelector('.close-menu');
+        const nav = document.querySelector('.fullscreen-nav');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        // メニューを開く
+        menuTrigger.addEventListener('click', () => {
+            nav.classList.add('active');
+            document.body.style.overflow = 'hidden'; // スクロール防止
+        });
+
+        // メニューを閉じる
+        closeMenu.addEventListener('click', () => {
+            nav.classList.remove('active');
+            document.body.style.overflow = ''; // スクロール再開
+        });
+
+        // 各ナビゲーションリンクのクリックイベント
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // クリックされたリンクのhref属性（#about-usなど）を取得
+                const targetId = link.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                // メニューを閉じる
+                nav.classList.remove('active');
+                document.body.style.overflow = '';
+
+                // 対象のセクションまでスムーズスクロール
+                if (targetSection) {
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html> 
