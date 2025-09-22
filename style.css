@@ -1372,3 +1372,17 @@ form label > .required {
     font-weight: bold;
     margin-left: 3px;
 }
+
+.btn-login{
+    display:inline-block;
+    margin-top:14px;
+    padding:12px 22px;
+    background:#2563eb;
+    color:#fff;
+    font-weight:700;
+    border-radius:8px;
+    text-decoration:none;
+    transition:background .2s ease, transform .1s ease;
+  }
+  .btn-login:hover{ background:#1e40af; transform:translateY(-1px); }
+  
